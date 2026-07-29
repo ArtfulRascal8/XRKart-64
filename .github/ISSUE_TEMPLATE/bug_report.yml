@@ -1,0 +1,89 @@
+name: Bug report
+description: Tell us about a problem with XRKart 64.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve XRKart 64. Please do not upload or link to ROM files or copyrighted game assets.
+
+  - type: dropdown
+    id: headset
+    attributes:
+      label: Headset
+      options:
+        - Meta Quest 2
+        - Meta Quest 3
+        - Meta Quest 3S
+        - Meta Quest Pro
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: XRKart 64 version
+      description: The installed version, such as v0.2.0.
+      placeholder: v0.2.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where did the problem happen?
+      options:
+        - First-person racing
+        - Third-person racing
+        - Menus or Comfort screen
+        - ROM selection or game-data setup
+        - Controls or recentering
+        - Audio
+        - Other or not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you saw or heard.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Tell us how to make the problem happen again.
+      placeholder: |
+        1. Start XRKart 64
+        2. Open...
+        3. Select...
+        4. The problem appears
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots, video, or extra details
+      description: Add anything else that may help. Do not attach ROM files or copyrighted game assets.
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I checked the existing reports for the same problem.
+          required: true
+        - label: I have not attached or linked to a ROM or copyrighted game assets.
+          required: true

@@ -8,6 +8,11 @@ XRKart 64 brings Mario Kart 64 racing to standalone VR on Meta Quest.
 
 The APK is provided through the **Releases** section of this repository.
 
+## Community
+
+- [Report a bug](https://github.com/ArtfulRascal8/XRKart-64/issues/new?template=bug_report.yml)
+- [Comments and discussion](https://github.com/ArtfulRascal8/XRKart-64/discussions)
+
 It is a fan-made VR project built on the work of the SpaghettiKart and
 LibUltraShip communities. XRKart 64 is not affiliated with or endorsed by
 Nintendo.
