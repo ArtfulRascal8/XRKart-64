@@ -1,0 +1,7 @@
+# Keep application binaries out of Git history. APKs belong in GitHub Releases.
+*.apk
+*.aab
+
+# Local operating-system files.
+.DS_Store
+Thumbs.db
