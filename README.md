@@ -57,6 +57,10 @@ they have been tested with the current release.
 
 ## First launch and game-data generation
 
+Before opening XRKart 64, copy your legally dumped Mario Kart 64 US ROM to the
+**Downloads** folder on your headset. You may use another folder if you prefer,
+but choose one you can easily find in the headset's file picker.
+
 The first time you open XRKart 64:
 
 1. Select **Select legally dumped ROM**.
